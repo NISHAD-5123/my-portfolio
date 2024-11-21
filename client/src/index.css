@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  .small_device{
+    display: none;
+  }
+
+@media screen and (max-width: 468px) {
+  .hide{
+    display: none;
+    }
+  .small_device{
+    display: block;
+  }
+}
