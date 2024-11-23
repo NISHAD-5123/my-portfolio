@@ -17,7 +17,7 @@ const handleInput = (e)=>{
 
 const submitForm = async(e)=>{
   e.preventDefault();
-  const res = await fetch('http://localhost:5000/contact',{
+  const res = await fetch('https://my-portfolio-server-taupe.vercel.app',{
     method:"POST",
     body:JSON.stringify(data),
     headers:{
