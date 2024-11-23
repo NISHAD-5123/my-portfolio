@@ -10,7 +10,7 @@ return (
             <h1 class="max-w-2xl mb-4 text-3xl font-normal tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
             {heading}
             </h1>
-            <p className='text-2xl'>{description}</p>
+            <p className='text-2xl dark:text-white'>{description}</p>
           </div>
           <div class="lg:mt-0 lg:col-span-5 lg:flex">
             <img className="rounded shadow-md"
