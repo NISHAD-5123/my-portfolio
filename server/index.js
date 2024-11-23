@@ -32,7 +32,7 @@ app.get('/user', (req,res)=>{
     })
 })
 
-app.post('https://my-portfolio-server-taupe.vercel.app/contact', async(req,res)=>{
+app.post('http://localhost:5000/contact', async(req,res)=>{
     const {email,subject,message} = req.body;
     try {
         const data = new contact({
