@@ -4,7 +4,7 @@ import { faGithub, faLinkedin, faFacebook, faWhatsapp } from "@fortawesome/free-
 const Footer = () => {
   return (
     <>
-<footer class="bg-white rounded-none shadow dark:bg-gray-900 m-4">
+<footer class="bg-white rounded-none shadow dark:bg-white m-4">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
             {/* <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
