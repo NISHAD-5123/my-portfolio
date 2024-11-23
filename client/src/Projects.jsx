@@ -8,8 +8,8 @@ const Project = () => {
     <div class="text-black max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <ol class="relative border-s border-black-200 dark:border-black-700 my-16">
         <li class="mb-10 ms-4">
-          <div class="absolute w-3 h-3 bg-green-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <h3 class="text-lg font-semibold text-white-900 dark:text-white">
+          <div class="absolute w-3 h-3 bg-green-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-green-900 dark:bg-green-700"></div>
+          <h3 class="text-lg font-semibold text-white-900 dark:text-black">
             Image Caption Generator | Python, CNN, RNN, Tailwind, MongoDB, ReactJs, NodeJs, ExpressJs - 2024
           </h3>
           <ol class="mb-4 text-base font-normal text-white-500 dark:text-white-400">
@@ -30,9 +30,9 @@ const Project = () => {
           
         </li>
         <li class="mb-10 ms-4">
-          <div class="absolute w-3 h-3 bg-green-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-white-900 dark:bg-white-700"></div>
+          <div class="absolute w-3 h-3 bg-green-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-green-900 dark:bg-green-700"></div>
           
-          <h3 class="text-lg font-semibold text-white-900 dark:text-white">
+          <h3 class="text-lg font-semibold text-white-900 dark:text-black">
             Tourism Web App Prediction  | HTML/CSS , NodeJs, Bootstrap, ExpressJs, MongoDB - 2023
           </h3>
           <ol class="mb-4 text-base font-normal text-white-500 dark:text-white-400">
@@ -54,8 +54,8 @@ const Project = () => {
           
         </li>
         <li class="ms-4">
-          <div class="absolute w-3 h-3 bg-green-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-white-900 dark:bg-white-700"></div>
-          <h3 class="text-lg font-semibold text-white-900 dark:text-white">
+          <div class="absolute w-3 h-3 bg-green-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-green-900 dark:bg-green-700"></div>
+          <h3 class="text-lg font-semibold text-white-900 dark:text-black">
           Smart Gym Management System | HTML/CSS , NodeJs, Bootstrap, ExpressJs, MongoDB - 2022
           </h3>
           <ol class="mb-4 text-base font-normal text-white-500 dark:text-white-400">
