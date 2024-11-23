@@ -19,7 +19,7 @@ const Hero = () => {
             I am Nishad Arun <br / >
             currently pursuing my B.E from RGIT, Mumbai.
             </h1>
-            <h1 className="text-red-500 text-2xl font-normal tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">I am <AutoText/></h1>
+            <h1 className="text-red-500 text-2xl font-normal tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-red-500">I am <AutoText/></h1>
             <br />
             <span className="bg-red-500 text-1xl text-center text-white p-4 rounded-full hide"><a href={Resume}  download> Download CV</a></span>
             </div>
