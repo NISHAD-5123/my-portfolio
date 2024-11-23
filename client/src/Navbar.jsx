@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="lg:hidden">
           <button
             onClick={toggleMenu}
-            className="text-gray-500 hover:text-gray-900 focus:outline-none dark:text-gray-400"
+            className="text-gray-500 hover:text-white focus:outline-none dark:text-gray-400"
             aria-label="Toggle navigation menu"
           >
             <svg
