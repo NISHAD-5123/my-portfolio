@@ -8,7 +8,7 @@ app.use(bodyParser.json())
 
 app.use(express.urlencoded({ extended: false}));
 app.use(cors({
-    origin:['https://my-portfolio-frontend-gamma.vercel.app'],
+    origin:['http://localhost:5173'],
     method:['POST', 'GET'],
     credentials:true,
 }));
