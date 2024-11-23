@@ -8,7 +8,7 @@ app.use(bodyParser.json())
 
 app.use(express.urlencoded({ extended: false}));
 app.use(cors({
-    origin:['http://localhost:5173'],
+    origin:'https://my-portfolio-frontend-gamma.vercel.app',
     method:['POST', 'GET'],
     credentials:true,
 }));
@@ -32,7 +32,7 @@ app.get('/user', (req,res)=>{
     })
 })
 
-app.post('http://localhost:5000/contact', async(req,res)=>{
+app.post('/contact', async(req,res)=>{
     const {email,subject,message} = req.body;
     try {
         const data = new contact({
