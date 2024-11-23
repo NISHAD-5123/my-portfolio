@@ -11,9 +11,9 @@ const Navbar = () => {
 <>
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+    <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse dark:text-white">
             <FontAwesomeIcon icon={faBriefcase} size="2x" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Portfolio</span>
+        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Portfolio</span>
     </a>
 
     <div className="lg:hidden">
