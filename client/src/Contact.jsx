@@ -40,10 +40,10 @@ const submitForm = async(e)=>{
 
 return (
 <>
-  <section class="bg-white dark:bg-gray-900">
+  <section class="bg-white">
   <h1 className="text-red-500 text-3xl font-bold max-w-screen-xl flex flex-wrap items-center justify-between mx-auto" id="Contact">Contact me</h1>
   <hr className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto border-t-4 border-red-500" />
-  <div class="max-w-screen-xl mx-auto p-4">
+  <div class="max-w-screen-xl mx-auto p-4 dark:bg-gray-900">
       <p class="my-4 lg:mb-16 font-light text-gray-500 dark:text-gray-400 sm:text-xl">Having some doubt or want to build some crazy project with me? Let me know.</p>
       <form onSubmit={submitForm} class="space-y-8 ">
           <div>
